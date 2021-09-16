@@ -11,8 +11,7 @@ metadata:
       title: Repo
       icon: github
   annotations:
-    circleci.com/project-slug: github.com/dx-ex/circleci-demo-javascript-react-app
-    github.com/project-slug: dx-ex/circleci-demo-javascript-react-app
+    circleci.com/project-slug: github/dx-ex/circleci-demo-javascript-react-app
 
 spec:
   type: service
