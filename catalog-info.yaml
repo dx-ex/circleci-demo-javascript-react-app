@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lqs-fe-shell
+  # This is an extra long description
+  tags:
+    - lqs
+  description: The is an example of LQS FE Application entity
+  links:
+    - url: https://github.com/dx-ex/circleci-demo-javascript-react-app
+      title: Repo
+      icon: github
+  annotations:
+    circleci.com/project-slug: github.com/dx-ex/circleci-demo-javascript-react-app
+    github.com/project-slug: dx-ex/circleci-demo-javascript-react-app
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-AU-FE
+  system: LQS
+  dependsOn: ['resource:dhle-ui-kit']
+  consumesApis:
+    - bff-hello-world
